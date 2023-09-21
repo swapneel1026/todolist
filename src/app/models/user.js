@@ -11,12 +11,12 @@ const userSchema = new Schema({
     required: [true, "pass req!"],
   },
   about: String,
-  profileUrl: String,
-  address: {
-    street: String,
-    city: String,
-    pincode: Number,
-  },
+//   profileUrl: String,
+//   address: {
+//     street: String,
+//     city: String,
+//     pincode: Number,
+//   },
 });
 
 export const User =
