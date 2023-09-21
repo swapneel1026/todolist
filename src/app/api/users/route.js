@@ -1,5 +1,7 @@
-import { NextResponse } from "next/server"
+import { NextResponse } from "next/server";
+import { connectDb } from '../../helper/db';
 
+connectDb();
 const users=[
     {
         name:"swapneel",
